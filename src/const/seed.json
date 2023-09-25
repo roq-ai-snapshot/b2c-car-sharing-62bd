@@ -1,0 +1,2822 @@
+[
+  {
+    "operations_dashboard": [
+      {
+        "id": "59d91b1c-47ca-472a-8ce3-c5309d23c851",
+        "total_cars": 51643,
+        "available_cars": 28652,
+        "booked_cars": 90626,
+        "maintenance_cars": 68816,
+        "last_updated": "2023-09-25T06:25:17.931Z",
+        "created_at": "2023-09-24T10:55:14.166Z",
+        "updated_at": "2023-09-25T03:27:03.647Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "12c23984-8b5d-4345-97e6-013c3459882e",
+        "total_cars": 52427,
+        "available_cars": 85602,
+        "booked_cars": 6590,
+        "maintenance_cars": 62374,
+        "last_updated": "2023-09-24T09:09:32.637Z",
+        "created_at": "2023-09-24T08:27:18.852Z",
+        "updated_at": "2023-09-24T14:06:36.129Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "80be781b-9d6b-402e-93c7-5d87e9298703",
+        "total_cars": 10739,
+        "available_cars": 26849,
+        "booked_cars": 13305,
+        "maintenance_cars": 1599,
+        "last_updated": "2023-09-24T10:26:50.022Z",
+        "created_at": "2023-09-24T11:27:52.366Z",
+        "updated_at": "2023-09-24T23:31:58.873Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4c157b61-dade-4bd3-ba74-acbf6a2b1dde",
+        "total_cars": 33060,
+        "available_cars": 84103,
+        "booked_cars": 37784,
+        "maintenance_cars": 63597,
+        "last_updated": "2023-09-25T04:01:27.613Z",
+        "created_at": "2023-09-25T06:48:59.890Z",
+        "updated_at": "2023-09-24T21:55:09.247Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5c2912e3-9ec8-4db1-98a9-ce7fe9897f0d",
+        "total_cars": 38342,
+        "available_cars": 14869,
+        "booked_cars": 52545,
+        "maintenance_cars": 69735,
+        "last_updated": "2023-09-24T10:49:18.592Z",
+        "created_at": "2023-09-24T10:52:45.994Z",
+        "updated_at": "2023-09-25T00:20:37.609Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "6d0f163a-120a-426a-976a-75f8e2917575",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 60659,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-24T14:52:11.769Z",
+        "updated_at": "2023-09-24T07:42:44.819Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e1c35b88-36d9-4ebe-ba9b-fb6afd2bbfc5",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 69181,
+        "color": "Blue",
+        "license_plate": "XYZ456",
+        "created_at": "2023-09-25T01:23:26.211Z",
+        "updated_at": "2023-09-24T19:53:58.376Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "133463a5-2a8e-4d6c-ad95-8046448179e4",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 58705,
+        "color": "Green",
+        "license_plate": "123ABC",
+        "created_at": "2023-09-25T05:50:50.058Z",
+        "updated_at": "2023-09-25T02:01:38.220Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1b231378-cd29-476f-b81d-40feac98fbf9",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 75923,
+        "color": "Black",
+        "license_plate": "456XYZ",
+        "created_at": "2023-09-24T13:26:44.980Z",
+        "updated_at": "2023-09-24T09:35:41.588Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "af595116-8f39-4803-a73e-1a1514b84fc2",
+        "make": "BMW",
+        "model": "X5",
+        "year": 59503,
+        "color": "White",
+        "license_plate": "789DEF",
+        "created_at": "2023-09-24T07:45:14.839Z",
+        "updated_at": "2023-09-24T08:34:25.997Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car_status": [
+      {
+        "id": "b0bfbd60-558e-4a5b-a709-8154bf07bb15",
+        "status": "Available",
+        "last_updated": "2023-09-24T21:43:22.082Z",
+        "next_maintenance": "2023-09-24T22:07:54.393Z",
+        "mileage": 56795,
+        "location": "Parking Lot A",
+        "created_at": "2023-09-25T03:29:48.246Z",
+        "updated_at": "2023-09-24T16:12:43.894Z",
+        "car_id": "af595116-8f39-4803-a73e-1a1514b84fc2"
+      },
+      {
+        "id": "fb5c6fa3-10b9-4165-98a7-8426dea94b2e",
+        "status": "In Use",
+        "last_updated": "2023-09-24T22:18:11.121Z",
+        "next_maintenance": "2023-09-24T12:55:10.132Z",
+        "mileage": 66895,
+        "location": "Parking Lot B",
+        "created_at": "2023-09-24T11:26:49.532Z",
+        "updated_at": "2023-09-24T16:25:02.909Z",
+        "car_id": "133463a5-2a8e-4d6c-ad95-8046448179e4"
+      },
+      {
+        "id": "0fdb11e6-7ece-427e-b412-b40492256175",
+        "status": "Maintenance",
+        "last_updated": "2023-09-24T07:52:58.163Z",
+        "next_maintenance": "2023-09-24T11:40:09.570Z",
+        "mileage": 57339,
+        "location": "Garage C",
+        "created_at": "2023-09-24T19:31:20.381Z",
+        "updated_at": "2023-09-24T11:25:44.391Z",
+        "car_id": "af595116-8f39-4803-a73e-1a1514b84fc2"
+      },
+      {
+        "id": "059e2451-3d14-4e77-8273-5382e83083c7",
+        "status": "Out of Service",
+        "last_updated": "2023-09-24T12:42:00.197Z",
+        "next_maintenance": "2023-09-25T00:18:23.325Z",
+        "mileage": 99532,
+        "location": "Service Center D",
+        "created_at": "2023-09-24T13:39:14.070Z",
+        "updated_at": "2023-09-24T12:42:36.308Z",
+        "car_id": "133463a5-2a8e-4d6c-ad95-8046448179e4"
+      },
+      {
+        "id": "312cfe13-2c82-4c10-9c8c-0b58dbce769e",
+        "status": "Reserved",
+        "last_updated": "2023-09-24T19:40:17.387Z",
+        "next_maintenance": "2023-09-25T06:43:17.788Z",
+        "mileage": 44995,
+        "location": "Warehouse E",
+        "created_at": "2023-09-25T03:04:44.467Z",
+        "updated_at": "2023-09-24T21:55:28.958Z",
+        "car_id": "1b231378-cd29-476f-b81d-40feac98fbf9"
+      }
+    ],
+    "booking": [
+      {
+        "id": "60b40703-dc56-4812-969d-3a8cd85b5d26",
+        "start_time": "2023-09-25T05:44:25.497Z",
+        "end_time": "2023-09-25T00:14:46.108Z",
+        "booking_status": "Confirmed",
+        "pickup_location": "Airport",
+        "dropoff_location": "Office",
+        "created_at": "2023-09-24T23:10:18.275Z",
+        "updated_at": "2023-09-24T22:32:01.803Z",
+        "car_id": "6d0f163a-120a-426a-976a-75f8e2917575",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8ac10b9-cc74-4a11-aa94-a6617e3ea41d",
+        "start_time": "2023-09-25T05:24:00.545Z",
+        "end_time": "2023-09-24T13:34:37.293Z",
+        "booking_status": "Pending",
+        "pickup_location": "Downtown",
+        "dropoff_location": "Residential Area",
+        "created_at": "2023-09-24T22:52:16.428Z",
+        "updated_at": "2023-09-25T01:15:07.643Z",
+        "car_id": "6d0f163a-120a-426a-976a-75f8e2917575",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "72781083-5f2d-437f-a3c6-055d6c5b31a9",
+        "start_time": "2023-09-24T21:31:34.657Z",
+        "end_time": "2023-09-24T18:06:00.861Z",
+        "booking_status": "Cancelled",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Restaurant",
+        "created_at": "2023-09-24T21:35:54.525Z",
+        "updated_at": "2023-09-25T01:03:10.940Z",
+        "car_id": "6d0f163a-120a-426a-976a-75f8e2917575",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5e73117-828b-42b9-81f0-9b40486b7428",
+        "start_time": "2023-09-24T12:42:48.633Z",
+        "end_time": "2023-09-25T07:05:12.475Z",
+        "booking_status": "Completed",
+        "pickup_location": "Shopping Mall",
+        "dropoff_location": "Park",
+        "created_at": "2023-09-24T17:29:38.922Z",
+        "updated_at": "2023-09-24T20:02:42.306Z",
+        "car_id": "6d0f163a-120a-426a-976a-75f8e2917575",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6fa5ddb0-0d23-4b0a-8eaf-8dc34440b895",
+        "start_time": "2023-09-24T21:10:57.459Z",
+        "end_time": "2023-09-24T14:00:44.421Z",
+        "booking_status": "On Hold",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Beach",
+        "created_at": "2023-09-24T17:35:25.249Z",
+        "updated_at": "2023-09-25T06:46:09.160Z",
+        "car_id": "e1c35b88-36d9-4ebe-ba9b-fb6afd2bbfc5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bd7a22fa-45ea-43d4-8ef2-40dd6d13ceb8",
+        "email": "Dallin_Windler19@roq.tech",
+        "firstName": "Emily",
+        "lastName": "Romaguera",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/167.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7372589f-c472-4217-a1da-f611e3ef57a8",
+        "email": "Anjali59@roq.tech",
+        "firstName": "Vivien",
+        "lastName": "Stokes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/609.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "79bfe556-ad85-4fff-9db0-2477d9409e1a",
+        "email": "Sage.Reichert@roq.tech",
+        "firstName": "Jaida",
+        "lastName": "Kassulke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59970006",
+        "tenantId": null
+      },
+      {
+        "reference": "52396c14-33e6-44d3-8dc2-361ca7515c45",
+        "email": "Bertha.Mueller@roq.tech",
+        "firstName": "Emilia",
+        "lastName": "Ruecker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/797.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "80af8c8e-7f03-47c0-81ec-756a49e9325e",
+        "email": "Nikolas_Thiel@roq.tech",
+        "firstName": "German",
+        "lastName": "Runte",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/971.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "operations_dashboard": [
+      {
+        "id": "8c8d7965-d9c7-4ab6-93b6-f79973b88efa",
+        "total_cars": 87026,
+        "available_cars": 84459,
+        "booked_cars": 28772,
+        "maintenance_cars": 82684,
+        "last_updated": "2023-09-25T03:57:32.973Z",
+        "created_at": "2023-09-25T02:03:05.413Z",
+        "updated_at": "2023-09-24T13:34:03.396Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ee2d5360-d769-4f23-8413-66337c347f1d",
+        "total_cars": 37743,
+        "available_cars": 72498,
+        "booked_cars": 98975,
+        "maintenance_cars": 94782,
+        "last_updated": "2023-09-25T05:42:46.202Z",
+        "created_at": "2023-09-24T18:28:48.516Z",
+        "updated_at": "2023-09-24T16:08:21.456Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a9205eb0-ad78-4e20-b949-16ecc65d07e9",
+        "total_cars": 46255,
+        "available_cars": 94831,
+        "booked_cars": 37059,
+        "maintenance_cars": 80667,
+        "last_updated": "2023-09-24T18:16:05.882Z",
+        "created_at": "2023-09-24T15:13:19.812Z",
+        "updated_at": "2023-09-24T22:56:23.715Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f7141e57-70cf-4fa7-be07-930883eeebce",
+        "total_cars": 41294,
+        "available_cars": 39581,
+        "booked_cars": 7168,
+        "maintenance_cars": 93703,
+        "last_updated": "2023-09-24T20:49:50.807Z",
+        "created_at": "2023-09-24T08:32:39.437Z",
+        "updated_at": "2023-09-24T23:51:14.293Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b1c0e989-ae64-418a-bd6e-52047edaff9d",
+        "total_cars": 26563,
+        "available_cars": 74500,
+        "booked_cars": 54446,
+        "maintenance_cars": 16323,
+        "last_updated": "2023-09-24T15:04:26.976Z",
+        "created_at": "2023-09-25T05:45:29.359Z",
+        "updated_at": "2023-09-24T14:55:18.271Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "b7b6fd7b-b19b-43b0-9cdb-ea78782a4ca3",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 94930,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-24T21:11:53.847Z",
+        "updated_at": "2023-09-25T03:51:31.683Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4fd8ca55-9440-486a-ba1c-7e8da80cf4e5",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 17116,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-09-25T03:11:12.188Z",
+        "updated_at": "2023-09-25T04:07:24.247Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b61d7cb1-93f4-4d28-80eb-e0e86aa34f08",
+        "make": "Ford",
+        "model": "F-150",
+        "year": 53597,
+        "color": "Black",
+        "license_plate": "123456",
+        "created_at": "2023-09-24T20:17:54.607Z",
+        "updated_at": "2023-09-24T22:26:17.441Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "43e461e3-22bb-4e07-aea2-e1a1ff104dad",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 58749,
+        "color": "White",
+        "license_plate": "789ABC",
+        "created_at": "2023-09-24T11:57:18.390Z",
+        "updated_at": "2023-09-25T02:10:04.991Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c5da7338-54a2-4c87-bae7-6ac7f4c240d4",
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 94070,
+        "color": "Silver",
+        "license_plate": "456XYZ",
+        "created_at": "2023-09-24T23:53:34.341Z",
+        "updated_at": "2023-09-24T15:15:06.316Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car_status": [
+      {
+        "id": "bfbeebda-703d-41c7-ac71-8b9584b6b91d",
+        "status": "Available",
+        "last_updated": "2023-09-24T18:11:24.709Z",
+        "next_maintenance": "2023-09-24T17:00:21.173Z",
+        "mileage": 20253,
+        "location": "Parking Lot A",
+        "created_at": "2023-09-25T01:30:50.064Z",
+        "updated_at": "2023-09-24T18:56:39.333Z",
+        "car_id": "c5da7338-54a2-4c87-bae7-6ac7f4c240d4"
+      },
+      {
+        "id": "953e93bf-c93e-4f8d-be97-a97bd79955a7",
+        "status": "Booked",
+        "last_updated": "2023-09-24T23:05:51.665Z",
+        "next_maintenance": "2023-09-24T19:19:37.402Z",
+        "mileage": 20252,
+        "location": "Parking Lot B",
+        "created_at": "2023-09-24T13:26:27.082Z",
+        "updated_at": "2023-09-24T15:55:01.180Z",
+        "car_id": "b7b6fd7b-b19b-43b0-9cdb-ea78782a4ca3"
+      },
+      {
+        "id": "ddd34486-4a0c-4013-8a56-d533aa2abcef",
+        "status": "In Repair",
+        "last_updated": "2023-09-25T05:52:02.163Z",
+        "next_maintenance": "2023-09-24T22:31:09.768Z",
+        "mileage": 18338,
+        "location": "Garage",
+        "created_at": "2023-09-24T10:22:34.597Z",
+        "updated_at": "2023-09-24T15:46:33.789Z",
+        "car_id": "b61d7cb1-93f4-4d28-80eb-e0e86aa34f08"
+      },
+      {
+        "id": "a4101aa8-0b22-48ed-ad37-dddf48f78dab",
+        "status": "Maintenance",
+        "last_updated": "2023-09-24T17:02:01.672Z",
+        "next_maintenance": "2023-09-25T04:55:03.249Z",
+        "mileage": 48518,
+        "location": "Service Center",
+        "created_at": "2023-09-25T07:02:25.891Z",
+        "updated_at": "2023-09-24T13:09:24.091Z",
+        "car_id": "b61d7cb1-93f4-4d28-80eb-e0e86aa34f08"
+      },
+      {
+        "id": "b667b428-4488-4f79-a8cf-1a029472dafd",
+        "status": "Unavailable",
+        "last_updated": "2023-09-25T05:35:49.499Z",
+        "next_maintenance": "2023-09-24T16:43:36.416Z",
+        "mileage": 9353,
+        "location": "Rental Office",
+        "created_at": "2023-09-24T10:55:25.646Z",
+        "updated_at": "2023-09-24T08:29:31.694Z",
+        "car_id": "4fd8ca55-9440-486a-ba1c-7e8da80cf4e5"
+      }
+    ],
+    "booking": [
+      {
+        "id": "b5259dd1-7b2d-4074-89dd-9cfe9a935422",
+        "start_time": "2023-09-25T00:53:03.032Z",
+        "end_time": "2023-09-24T23:40:47.859Z",
+        "booking_status": "Pending",
+        "pickup_location": "Airport",
+        "dropoff_location": "Airport",
+        "created_at": "2023-09-24T16:50:37.181Z",
+        "updated_at": "2023-09-25T05:09:12.063Z",
+        "car_id": "b7b6fd7b-b19b-43b0-9cdb-ea78782a4ca3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80089ee2-6597-478d-a653-30e6ae17718d",
+        "start_time": "2023-09-24T15:44:50.250Z",
+        "end_time": "2023-09-24T20:54:24.018Z",
+        "booking_status": "Confirmed",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Train Station",
+        "created_at": "2023-09-24T11:10:54.717Z",
+        "updated_at": "2023-09-24T11:24:53.096Z",
+        "car_id": "43e461e3-22bb-4e07-aea2-e1a1ff104dad",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c27ab0a1-7f8d-433f-9ddf-6ba82d8d36a4",
+        "start_time": "2023-09-25T06:10:42.920Z",
+        "end_time": "2023-09-24T10:05:59.401Z",
+        "booking_status": "Cancelled",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Hotel",
+        "created_at": "2023-09-25T00:58:27.176Z",
+        "updated_at": "2023-09-25T03:10:00.644Z",
+        "car_id": "4fd8ca55-9440-486a-ba1c-7e8da80cf4e5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "827177f1-2b02-48a7-bed5-00d88cfc35cc",
+        "start_time": "2023-09-24T16:05:07.192Z",
+        "end_time": "2023-09-24T15:03:58.532Z",
+        "booking_status": "Completed",
+        "pickup_location": "Office",
+        "dropoff_location": "Office",
+        "created_at": "2023-09-24T13:43:27.230Z",
+        "updated_at": "2023-09-25T03:08:34.481Z",
+        "car_id": "b61d7cb1-93f4-4d28-80eb-e0e86aa34f08",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b8fb78cc-fea3-4e82-9007-59267448a508",
+        "start_time": "2023-09-24T17:39:48.342Z",
+        "end_time": "2023-09-24T09:48:34.940Z",
+        "booking_status": "No Show",
+        "pickup_location": "Residential Area",
+        "dropoff_location": "Residential Area",
+        "created_at": "2023-09-24T20:13:39.497Z",
+        "updated_at": "2023-09-25T01:59:47.593Z",
+        "car_id": "43e461e3-22bb-4e07-aea2-e1a1ff104dad",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7d60f7d2-f6c1-45c2-8730-0011d12b6b4e",
+        "email": "Gayle_Gleichner95@roq.tech",
+        "firstName": "Astrid",
+        "lastName": "Welch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1009.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cfb8f044-0e2f-427d-9c41-a66145203eb4",
+        "email": "Abigale.Simonis@roq.tech",
+        "firstName": "Bertrand",
+        "lastName": "Effertz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27234771",
+        "tenantId": null
+      },
+      {
+        "reference": "117340f0-b2ef-40a6-a18d-615ec7f163bf",
+        "email": "Richie_Schmitt15@roq.tech",
+        "firstName": "Moises",
+        "lastName": "Walker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45538155",
+        "tenantId": null
+      },
+      {
+        "reference": "25ddd33e-05dd-4a4f-9ca6-2331ab13c4d3",
+        "email": "Darrell_Ziemann@roq.tech",
+        "firstName": "Annette",
+        "lastName": "Cormier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/755.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c9d9d0b3-7d30-4d39-946d-91943f0a8e03",
+        "email": "Carolyne_Roberts@roq.tech",
+        "firstName": "Baby",
+        "lastName": "Wolff",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63867329",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "operations_dashboard": [
+      {
+        "id": "9199c432-5762-435b-80f6-628d1a021b54",
+        "total_cars": 48827,
+        "available_cars": 86298,
+        "booked_cars": 98421,
+        "maintenance_cars": 60444,
+        "last_updated": "2023-09-24T23:12:34.970Z",
+        "created_at": "2023-09-24T14:22:01.845Z",
+        "updated_at": "2023-09-24T08:35:15.615Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ea5a16bb-f5e4-42a5-8977-13ef0dbd0cfe",
+        "total_cars": 94588,
+        "available_cars": 14334,
+        "booked_cars": 90956,
+        "maintenance_cars": 91092,
+        "last_updated": "2023-09-24T22:14:31.063Z",
+        "created_at": "2023-09-24T18:07:40.005Z",
+        "updated_at": "2023-09-24T20:59:05.073Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2deb4a35-5df2-45b7-a360-346c1f5bb556",
+        "total_cars": 95213,
+        "available_cars": 70233,
+        "booked_cars": 88470,
+        "maintenance_cars": 50321,
+        "last_updated": "2023-09-25T06:22:47.051Z",
+        "created_at": "2023-09-25T06:01:48.935Z",
+        "updated_at": "2023-09-24T23:10:28.583Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "980b1429-fd9b-434e-ae78-77862eb438e1",
+        "total_cars": 26001,
+        "available_cars": 56473,
+        "booked_cars": 92285,
+        "maintenance_cars": 43614,
+        "last_updated": "2023-09-24T09:46:19.140Z",
+        "created_at": "2023-09-24T16:48:02.616Z",
+        "updated_at": "2023-09-24T11:03:09.693Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e5d2f61f-745a-4b6a-b904-30862297e4ad",
+        "total_cars": 56154,
+        "available_cars": 64170,
+        "booked_cars": 17487,
+        "maintenance_cars": 18453,
+        "last_updated": "2023-09-24T18:54:57.500Z",
+        "created_at": "2023-09-24T14:06:50.148Z",
+        "updated_at": "2023-09-24T19:50:28.890Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "77974beb-9755-491d-a37e-33e7101413a5",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 18259,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-24T18:05:12.792Z",
+        "updated_at": "2023-09-24T14:27:50.900Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "21fd8f9c-6e1b-4eab-82ce-3210cd25c5ca",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 91526,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-09-24T14:26:09.339Z",
+        "updated_at": "2023-09-24T14:38:17.021Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d84e35e4-ae09-4ecf-a070-017cf8031a08",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 18504,
+        "color": "Green",
+        "license_plate": "123ABC",
+        "created_at": "2023-09-24T10:11:26.550Z",
+        "updated_at": "2023-09-24T17:39:55.012Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "def3ab0b-8584-4913-88de-b7d86f741859",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 98963,
+        "color": "Black",
+        "license_plate": "789XYZ",
+        "created_at": "2023-09-24T20:51:27.118Z",
+        "updated_at": "2023-09-24T09:41:33.774Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f2b18081-9e95-42a2-9b8a-a27c08e297a1",
+        "make": "BMW",
+        "model": "X5",
+        "year": 47089,
+        "color": "White",
+        "license_plate": "456DEF",
+        "created_at": "2023-09-24T22:55:20.570Z",
+        "updated_at": "2023-09-25T07:39:25.935Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car_status": [
+      {
+        "id": "bd705243-7340-484e-9c83-06792c60e534",
+        "status": "Available",
+        "last_updated": "2023-09-25T06:29:30.092Z",
+        "next_maintenance": "2023-09-24T18:18:03.033Z",
+        "mileage": 34178,
+        "location": "Parking Lot A",
+        "created_at": "2023-09-24T16:05:48.176Z",
+        "updated_at": "2023-09-24T12:07:11.968Z",
+        "car_id": "77974beb-9755-491d-a37e-33e7101413a5"
+      },
+      {
+        "id": "d374a12c-dbc5-4149-ac41-99e2631b2aa3",
+        "status": "Rented",
+        "last_updated": "2023-09-24T22:43:12.990Z",
+        "next_maintenance": "2023-09-24T13:46:27.522Z",
+        "mileage": 20446,
+        "location": "Parking Lot B",
+        "created_at": "2023-09-24T17:28:04.434Z",
+        "updated_at": "2023-09-24T08:13:03.149Z",
+        "car_id": "77974beb-9755-491d-a37e-33e7101413a5"
+      },
+      {
+        "id": "4d174783-f774-41a1-ab62-2d7c25398984",
+        "status": "In Service",
+        "last_updated": "2023-09-25T05:49:34.748Z",
+        "next_maintenance": "2023-09-24T10:33:15.812Z",
+        "mileage": 26982,
+        "location": "Garage C",
+        "created_at": "2023-09-24T10:59:53.348Z",
+        "updated_at": "2023-09-24T22:29:14.439Z",
+        "car_id": "21fd8f9c-6e1b-4eab-82ce-3210cd25c5ca"
+      },
+      {
+        "id": "9eb01af8-b8a8-443c-a201-e3432f732a7f",
+        "status": "Out of Service",
+        "last_updated": "2023-09-25T05:26:29.433Z",
+        "next_maintenance": "2023-09-25T07:36:02.072Z",
+        "mileage": 85037,
+        "location": "Service Center D",
+        "created_at": "2023-09-25T04:33:57.566Z",
+        "updated_at": "2023-09-24T23:24:51.436Z",
+        "car_id": "d84e35e4-ae09-4ecf-a070-017cf8031a08"
+      },
+      {
+        "id": "0df9843e-ab66-480c-85dc-f0238c56a57a",
+        "status": "Maintenance",
+        "last_updated": "2023-09-24T11:12:24.662Z",
+        "next_maintenance": "2023-09-25T07:28:46.658Z",
+        "mileage": 14826,
+        "location": "Warehouse E",
+        "created_at": "2023-09-24T12:41:05.213Z",
+        "updated_at": "2023-09-24T17:59:20.185Z",
+        "car_id": "77974beb-9755-491d-a37e-33e7101413a5"
+      }
+    ],
+    "booking": [
+      {
+        "id": "b6974dea-f9a7-46f3-957d-eef82c6968fa",
+        "start_time": "2023-09-24T13:34:03.140Z",
+        "end_time": "2023-09-24T23:24:15.551Z",
+        "booking_status": "Confirmed",
+        "pickup_location": "Airport",
+        "dropoff_location": "City Center",
+        "created_at": "2023-09-24T15:35:45.950Z",
+        "updated_at": "2023-09-25T02:39:20.254Z",
+        "car_id": "f2b18081-9e95-42a2-9b8a-a27c08e297a1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47452742-3bea-4d1d-8a63-a68c3ff53084",
+        "start_time": "2023-09-24T14:41:03.031Z",
+        "end_time": "2023-09-24T19:29:33.725Z",
+        "booking_status": "Pending",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Shopping Mall",
+        "created_at": "2023-09-24T18:28:35.880Z",
+        "updated_at": "2023-09-25T05:35:08.064Z",
+        "car_id": "def3ab0b-8584-4913-88de-b7d86f741859",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2b97d95-a2ac-4614-a6a8-3a3a30f838c0",
+        "start_time": "2023-09-24T14:39:13.630Z",
+        "end_time": "2023-09-24T15:45:58.118Z",
+        "booking_status": "Cancelled",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Restaurant",
+        "created_at": "2023-09-24T12:28:17.366Z",
+        "updated_at": "2023-09-24T21:16:15.009Z",
+        "car_id": "def3ab0b-8584-4913-88de-b7d86f741859",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "219a4b13-139b-4e02-b931-1a810f8eec49",
+        "start_time": "2023-09-24T10:38:22.202Z",
+        "end_time": "2023-09-24T19:21:41.106Z",
+        "booking_status": "Completed",
+        "pickup_location": "Office",
+        "dropoff_location": "Park",
+        "created_at": "2023-09-25T05:07:04.377Z",
+        "updated_at": "2023-09-24T13:59:26.979Z",
+        "car_id": "77974beb-9755-491d-a37e-33e7101413a5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d25ba860-8f5d-4447-98a1-81df4fb7de90",
+        "start_time": "2023-09-25T05:42:36.604Z",
+        "end_time": "2023-09-25T07:29:13.154Z",
+        "booking_status": "On Hold",
+        "pickup_location": "Residential Area",
+        "dropoff_location": "Beach",
+        "created_at": "2023-09-25T06:03:40.506Z",
+        "updated_at": "2023-09-24T11:27:10.785Z",
+        "car_id": "def3ab0b-8584-4913-88de-b7d86f741859",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "770920f4-5519-485a-94b2-f5b19cd9ff17",
+        "email": "Celia.Abbott@roq.tech",
+        "firstName": "Dejon",
+        "lastName": "McKenzie",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/326.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4a62a992-de36-4437-9c85-9324e58adf4f",
+        "email": "Aubree.Herman@roq.tech",
+        "firstName": "Cory",
+        "lastName": "Bailey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/48.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d522d6cd-4f44-40b6-8788-5e81d48a1bc7",
+        "email": "Vida.Luettgen61@roq.tech",
+        "firstName": "Giovani",
+        "lastName": "D'Amore",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22675812",
+        "tenantId": null
+      },
+      {
+        "reference": "95faf00e-5650-4967-a548-c917e669c19f",
+        "email": "Jessyca.Nolan30@roq.tech",
+        "firstName": "Gregg",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12125940",
+        "tenantId": null
+      },
+      {
+        "reference": "b88a7e28-1617-4f6a-bc06-f6770dcf29df",
+        "email": "Branson_Gibson69@roq.tech",
+        "firstName": "Ignacio",
+        "lastName": "Ward",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26461006",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "operations_dashboard": [
+      {
+        "id": "2fcb4613-464f-47bd-aa91-c6064e9e622b",
+        "total_cars": 20787,
+        "available_cars": 2117,
+        "booked_cars": 41786,
+        "maintenance_cars": 91621,
+        "last_updated": "2023-09-24T11:33:12.776Z",
+        "created_at": "2023-09-24T08:23:50.810Z",
+        "updated_at": "2023-09-25T01:36:19.486Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bc44f1c7-c125-4311-b394-75eb075a96cd",
+        "total_cars": 88056,
+        "available_cars": 79442,
+        "booked_cars": 61688,
+        "maintenance_cars": 23549,
+        "last_updated": "2023-09-24T08:42:23.331Z",
+        "created_at": "2023-09-24T21:34:43.129Z",
+        "updated_at": "2023-09-24T15:09:01.497Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "08b7764a-408d-4b1b-ac75-7a609fe6546b",
+        "total_cars": 46585,
+        "available_cars": 10585,
+        "booked_cars": 67898,
+        "maintenance_cars": 57959,
+        "last_updated": "2023-09-24T11:57:53.345Z",
+        "created_at": "2023-09-24T18:01:24.410Z",
+        "updated_at": "2023-09-25T01:45:07.641Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "de08015b-659f-4d94-a33f-2c903d7c48dd",
+        "total_cars": 87414,
+        "available_cars": 98705,
+        "booked_cars": 54267,
+        "maintenance_cars": 30353,
+        "last_updated": "2023-09-25T00:12:24.321Z",
+        "created_at": "2023-09-24T20:39:08.146Z",
+        "updated_at": "2023-09-24T21:34:40.397Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "45b23625-6d40-4d08-93a1-55c0a1d5c83d",
+        "total_cars": 30431,
+        "available_cars": 56658,
+        "booked_cars": 6717,
+        "maintenance_cars": 23574,
+        "last_updated": "2023-09-25T06:02:41.065Z",
+        "created_at": "2023-09-25T02:13:36.517Z",
+        "updated_at": "2023-09-25T06:28:04.473Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "d78f08d9-5afe-4759-932e-49241e3a664f",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 47226,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-25T07:06:44.835Z",
+        "updated_at": "2023-09-24T20:50:52.289Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "985191e4-ab09-47e3-9687-4cf67de4d1f7",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 57694,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-09-24T18:32:42.281Z",
+        "updated_at": "2023-09-25T01:39:43.962Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fee7f438-2da9-40d9-ad96-0587f31a9fbe",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 85462,
+        "color": "Black",
+        "license_plate": "123ABC",
+        "created_at": "2023-09-24T19:49:55.914Z",
+        "updated_at": "2023-09-25T05:31:15.471Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1a63d1e8-f261-4f26-8ee1-955f8ff48760",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 74218,
+        "color": "White",
+        "license_plate": "789XYZ",
+        "created_at": "2023-09-24T19:51:06.093Z",
+        "updated_at": "2023-09-24T20:21:11.739Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2c3b0224-1ab4-4681-a41a-9d3130df2480",
+        "make": "BMW",
+        "model": "X5",
+        "year": 74207,
+        "color": "Silver",
+        "license_plate": "456DEF",
+        "created_at": "2023-09-24T14:43:35.616Z",
+        "updated_at": "2023-09-24T21:57:23.052Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car_status": [
+      {
+        "id": "6555f9fd-d59d-4f36-8fcb-f7b2785cba5a",
+        "status": "Available",
+        "last_updated": "2023-09-24T17:30:07.151Z",
+        "next_maintenance": "2023-09-25T04:01:47.274Z",
+        "mileage": 70905,
+        "location": "Parking Lot A",
+        "created_at": "2023-09-25T04:45:24.063Z",
+        "updated_at": "2023-09-25T05:22:39.995Z",
+        "car_id": "1a63d1e8-f261-4f26-8ee1-955f8ff48760"
+      },
+      {
+        "id": "64292006-b9f7-4522-9db9-a6ceccf84af5",
+        "status": "In Use",
+        "last_updated": "2023-09-25T03:11:46.902Z",
+        "next_maintenance": "2023-09-24T10:04:52.568Z",
+        "mileage": 50117,
+        "location": "Parking Lot B",
+        "created_at": "2023-09-25T02:49:09.476Z",
+        "updated_at": "2023-09-24T23:59:04.370Z",
+        "car_id": "1a63d1e8-f261-4f26-8ee1-955f8ff48760"
+      },
+      {
+        "id": "59ffd81b-0eab-41d7-b80d-3d6d25ed50bf",
+        "status": "Maintenance",
+        "last_updated": "2023-09-25T00:27:19.409Z",
+        "next_maintenance": "2023-09-24T12:52:41.616Z",
+        "mileage": 93068,
+        "location": "Garage C",
+        "created_at": "2023-09-25T01:41:18.913Z",
+        "updated_at": "2023-09-24T22:11:26.871Z",
+        "car_id": "d78f08d9-5afe-4759-932e-49241e3a664f"
+      },
+      {
+        "id": "00415bc0-c885-4710-91fa-bf21d239469f",
+        "status": "Out of Service",
+        "last_updated": "2023-09-24T18:02:34.402Z",
+        "next_maintenance": "2023-09-24T10:28:59.007Z",
+        "mileage": 66576,
+        "location": "Service Center D",
+        "created_at": "2023-09-24T18:50:32.736Z",
+        "updated_at": "2023-09-24T18:50:15.119Z",
+        "car_id": "d78f08d9-5afe-4759-932e-49241e3a664f"
+      },
+      {
+        "id": "3c8a03c0-dd9f-4b85-974c-d3be6f6bb94b",
+        "status": "Reserved",
+        "last_updated": "2023-09-25T07:18:36.735Z",
+        "next_maintenance": "2023-09-24T21:09:09.020Z",
+        "mileage": 24488,
+        "location": "Street E",
+        "created_at": "2023-09-24T23:53:59.251Z",
+        "updated_at": "2023-09-24T13:28:11.024Z",
+        "car_id": "d78f08d9-5afe-4759-932e-49241e3a664f"
+      }
+    ],
+    "booking": [
+      {
+        "id": "3f2d0634-6678-4598-a1d0-2fa4e6ee447e",
+        "start_time": "2023-09-25T04:08:48.470Z",
+        "end_time": "2023-09-25T02:40:54.108Z",
+        "booking_status": "Pending",
+        "pickup_location": "Airport",
+        "dropoff_location": "City Center",
+        "created_at": "2023-09-24T12:36:41.012Z",
+        "updated_at": "2023-09-24T09:39:35.166Z",
+        "car_id": "2c3b0224-1ab4-4681-a41a-9d3130df2480",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "98bb8d74-2509-462a-962d-760f5977816a",
+        "start_time": "2023-09-24T18:39:47.798Z",
+        "end_time": "2023-09-25T05:51:20.878Z",
+        "booking_status": "Confirmed",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Shopping Mall",
+        "created_at": "2023-09-24T12:05:25.129Z",
+        "updated_at": "2023-09-24T21:23:22.604Z",
+        "car_id": "985191e4-ab09-47e3-9687-4cf67de4d1f7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d269af79-e750-4b64-b4b5-eabd530cbf3d",
+        "start_time": "2023-09-25T02:47:54.493Z",
+        "end_time": "2023-09-24T08:28:16.903Z",
+        "booking_status": "Cancelled",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Restaurant",
+        "created_at": "2023-09-24T17:54:10.624Z",
+        "updated_at": "2023-09-25T04:35:09.048Z",
+        "car_id": "2c3b0224-1ab4-4681-a41a-9d3130df2480",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf6b0d8e-e035-4da5-96a2-36f498119f05",
+        "start_time": "2023-09-24T12:37:06.665Z",
+        "end_time": "2023-09-25T06:18:09.091Z",
+        "booking_status": "Completed",
+        "pickup_location": "Office",
+        "dropoff_location": "Park",
+        "created_at": "2023-09-24T08:32:05.247Z",
+        "updated_at": "2023-09-24T18:38:13.380Z",
+        "car_id": "fee7f438-2da9-40d9-ad96-0587f31a9fbe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7ad94d9-be99-4820-846a-431173af42f7",
+        "start_time": "2023-09-25T06:08:52.610Z",
+        "end_time": "2023-09-24T13:47:31.969Z",
+        "booking_status": "On Hold",
+        "pickup_location": "Residential Area",
+        "dropoff_location": "Beach",
+        "created_at": "2023-09-24T21:58:50.958Z",
+        "updated_at": "2023-09-24T16:01:10.536Z",
+        "car_id": "985191e4-ab09-47e3-9687-4cf67de4d1f7",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0aff7b10-28ae-422c-b1d6-e80626a2b423",
+        "email": "Abagail55@roq.tech",
+        "firstName": "Harmon",
+        "lastName": "Reichel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/303.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c575fa07-be2c-44aa-b773-050579f01338",
+        "email": "Roger21@roq.tech",
+        "firstName": "Javonte",
+        "lastName": "Wisozk",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/35.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d3a26b85-7c37-4e54-8247-17a89ccb5554",
+        "email": "Abigayle20@roq.tech",
+        "firstName": "Queenie",
+        "lastName": "Schuster",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4102659",
+        "tenantId": null
+      },
+      {
+        "reference": "6c4c4948-aea6-4337-8681-b548fa04e2e7",
+        "email": "Cassandre29@roq.tech",
+        "firstName": "Helmer",
+        "lastName": "Swaniawski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65870115",
+        "tenantId": null
+      },
+      {
+        "reference": "07397148-c34b-4370-99cd-8071bbafdce3",
+        "email": "Trace_Sanford72@roq.tech",
+        "firstName": "Etha",
+        "lastName": "Kling",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/953.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "operations_dashboard": [
+      {
+        "id": "8df0bb77-edee-4064-bad8-a764f8237d85",
+        "total_cars": 24605,
+        "available_cars": 22847,
+        "booked_cars": 91087,
+        "maintenance_cars": 77974,
+        "last_updated": "2023-09-24T14:17:57.217Z",
+        "created_at": "2023-09-25T03:36:27.748Z",
+        "updated_at": "2023-09-25T07:32:34.032Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6c43cc16-abc2-4274-916a-247c494123c9",
+        "total_cars": 18164,
+        "available_cars": 20111,
+        "booked_cars": 45540,
+        "maintenance_cars": 34173,
+        "last_updated": "2023-09-25T00:03:25.244Z",
+        "created_at": "2023-09-25T02:06:09.091Z",
+        "updated_at": "2023-09-24T15:12:48.521Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "71d057d6-c314-4248-b703-9d77202bd7d1",
+        "total_cars": 51262,
+        "available_cars": 71770,
+        "booked_cars": 46372,
+        "maintenance_cars": 8219,
+        "last_updated": "2023-09-25T05:01:13.029Z",
+        "created_at": "2023-09-24T11:50:58.315Z",
+        "updated_at": "2023-09-24T22:46:35.935Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "08a5d7b2-08dd-469d-aab1-b7edf3b0b5df",
+        "total_cars": 40907,
+        "available_cars": 63425,
+        "booked_cars": 90026,
+        "maintenance_cars": 31520,
+        "last_updated": "2023-09-24T19:42:22.563Z",
+        "created_at": "2023-09-24T14:01:15.148Z",
+        "updated_at": "2023-09-24T16:01:31.811Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c672e042-d976-4070-b41d-989fb2be848b",
+        "total_cars": 48502,
+        "available_cars": 94209,
+        "booked_cars": 77490,
+        "maintenance_cars": 93416,
+        "last_updated": "2023-09-24T15:29:19.652Z",
+        "created_at": "2023-09-24T09:25:32.774Z",
+        "updated_at": "2023-09-24T09:03:09.516Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "b0a6975d-cd47-49f3-af96-4dbf4dbd1c19",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 22201,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-24T20:31:19.560Z",
+        "updated_at": "2023-09-24T11:26:07.893Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cd4dc428-1ac2-44d3-8697-74c0f93f5b76",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 69945,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-09-25T00:58:28.830Z",
+        "updated_at": "2023-09-25T07:38:28.709Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bbed6255-15fa-4839-8d15-90dc6b88f748",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 7186,
+        "color": "Green",
+        "license_plate": "123456",
+        "created_at": "2023-09-24T22:42:51.949Z",
+        "updated_at": "2023-09-25T01:25:03.258Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e5d35ab5-d7c3-4657-9c44-759b0bd043b8",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 32659,
+        "color": "Black",
+        "license_plate": "DEF456",
+        "created_at": "2023-09-24T10:54:43.851Z",
+        "updated_at": "2023-09-24T23:23:12.171Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1ecc8125-660c-43aa-82ef-12b9115f5af9",
+        "make": "BMW",
+        "model": "X5",
+        "year": 50229,
+        "color": "White",
+        "license_plate": "GHI789",
+        "created_at": "2023-09-24T15:20:03.049Z",
+        "updated_at": "2023-09-24T16:17:10.848Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car_status": [
+      {
+        "id": "9ae1faf4-d9ec-41a1-8f0f-213ddebea685",
+        "status": "Available",
+        "last_updated": "2023-09-24T20:03:50.103Z",
+        "next_maintenance": "2023-09-24T13:32:30.231Z",
+        "mileage": 89871,
+        "location": "Parking Lot A",
+        "created_at": "2023-09-24T22:46:02.622Z",
+        "updated_at": "2023-09-24T11:32:23.073Z",
+        "car_id": "cd4dc428-1ac2-44d3-8697-74c0f93f5b76"
+      },
+      {
+        "id": "f599b0c1-07fd-440e-a5b1-ed5ffe6c905f",
+        "status": "Rented",
+        "last_updated": "2023-09-24T15:24:32.748Z",
+        "next_maintenance": "2023-09-24T09:44:41.599Z",
+        "mileage": 47691,
+        "location": "Parking Lot B",
+        "created_at": "2023-09-24T18:01:06.269Z",
+        "updated_at": "2023-09-25T04:19:37.090Z",
+        "car_id": "1ecc8125-660c-43aa-82ef-12b9115f5af9"
+      },
+      {
+        "id": "6fb68aa8-0070-408e-a7a3-df534a6f12dd",
+        "status": "In Service",
+        "last_updated": "2023-09-25T04:03:28.952Z",
+        "next_maintenance": "2023-09-24T21:07:17.203Z",
+        "mileage": 8503,
+        "location": "Garage C",
+        "created_at": "2023-09-24T11:30:10.123Z",
+        "updated_at": "2023-09-24T10:23:24.262Z",
+        "car_id": "e5d35ab5-d7c3-4657-9c44-759b0bd043b8"
+      },
+      {
+        "id": "87d2049d-137c-4da1-a65d-a5699ea4c28a",
+        "status": "Under Maintenance",
+        "last_updated": "2023-09-25T04:15:32.051Z",
+        "next_maintenance": "2023-09-24T23:15:21.628Z",
+        "mileage": 74248,
+        "location": "Service Center D",
+        "created_at": "2023-09-24T18:24:47.078Z",
+        "updated_at": "2023-09-25T00:05:54.233Z",
+        "car_id": "b0a6975d-cd47-49f3-af96-4dbf4dbd1c19"
+      },
+      {
+        "id": "aac62fbc-1ea2-4551-979d-00a229883a22",
+        "status": "Sold",
+        "last_updated": "2023-09-24T22:24:19.221Z",
+        "next_maintenance": "2023-09-24T09:31:29.885Z",
+        "mileage": 17405,
+        "location": "Showroom E",
+        "created_at": "2023-09-25T04:14:43.364Z",
+        "updated_at": "2023-09-24T08:21:17.671Z",
+        "car_id": "bbed6255-15fa-4839-8d15-90dc6b88f748"
+      }
+    ],
+    "booking": [
+      {
+        "id": "f7431f2e-3b23-4457-ab4b-bd6081342a5c",
+        "start_time": "2023-09-25T00:25:51.964Z",
+        "end_time": "2023-09-24T12:17:32.117Z",
+        "booking_status": "Pending",
+        "pickup_location": "Airport",
+        "dropoff_location": "City Center",
+        "created_at": "2023-09-24T11:23:32.156Z",
+        "updated_at": "2023-09-25T05:20:39.555Z",
+        "car_id": "e5d35ab5-d7c3-4657-9c44-759b0bd043b8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "acbac1e5-7d2b-4d90-9648-59892b8bfa33",
+        "start_time": "2023-09-24T22:09:54.405Z",
+        "end_time": "2023-09-24T08:34:06.360Z",
+        "booking_status": "Confirmed",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Shopping Mall",
+        "created_at": "2023-09-25T00:26:44.890Z",
+        "updated_at": "2023-09-25T03:50:33.629Z",
+        "car_id": "bbed6255-15fa-4839-8d15-90dc6b88f748",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "459ecdf6-d4cd-4b3a-8640-73c4a0d0e81f",
+        "start_time": "2023-09-25T04:02:38.034Z",
+        "end_time": "2023-09-25T01:07:01.127Z",
+        "booking_status": "Cancelled",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Restaurant",
+        "created_at": "2023-09-25T06:35:39.144Z",
+        "updated_at": "2023-09-24T10:24:05.689Z",
+        "car_id": "1ecc8125-660c-43aa-82ef-12b9115f5af9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b1d0f671-e945-4906-af35-e535eb8c55a1",
+        "start_time": "2023-09-25T02:14:26.626Z",
+        "end_time": "2023-09-24T23:41:35.764Z",
+        "booking_status": "Completed",
+        "pickup_location": "Office",
+        "dropoff_location": "Park",
+        "created_at": "2023-09-24T22:10:05.239Z",
+        "updated_at": "2023-09-24T12:08:09.870Z",
+        "car_id": "1ecc8125-660c-43aa-82ef-12b9115f5af9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4fdfd941-2478-4489-ac1d-de9163b236b9",
+        "start_time": "2023-09-24T09:12:58.259Z",
+        "end_time": "2023-09-24T20:33:47.972Z",
+        "booking_status": "No Show",
+        "pickup_location": "Residential Area",
+        "dropoff_location": "Beach",
+        "created_at": "2023-09-25T00:46:38.712Z",
+        "updated_at": "2023-09-25T07:30:07.775Z",
+        "car_id": "e5d35ab5-d7c3-4657-9c44-759b0bd043b8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "048826df-6161-48fc-a288-ef912b3ff454",
+        "email": "Hallie37@roq.tech",
+        "firstName": "Laurine",
+        "lastName": "Stroman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68758543",
+        "tenantId": null
+      },
+      {
+        "reference": "13b8188d-e4e2-4c84-bfb7-1fa410dfdc15",
+        "email": "Sheridan.Cremin@roq.tech",
+        "firstName": "Athena",
+        "lastName": "Price",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98241841",
+        "tenantId": null
+      },
+      {
+        "reference": "6df0617d-4218-4a99-bd6e-b99231666222",
+        "email": "Corbin.Spinka32@roq.tech",
+        "firstName": "Lilla",
+        "lastName": "Dach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7092820",
+        "tenantId": null
+      },
+      {
+        "reference": "43561d20-2ec8-4e92-acd5-e8dd1fa356da",
+        "email": "Brenda_Casper@roq.tech",
+        "firstName": "Bradley",
+        "lastName": "Mayer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71562005",
+        "tenantId": null
+      },
+      {
+        "reference": "27eaf935-2289-4842-97eb-90b37da003f6",
+        "email": "Jean25@roq.tech",
+        "firstName": "Adrienne",
+        "lastName": "Wisoky",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92144225",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "operations_dashboard": [
+      {
+        "id": "bb6f704a-f299-4e0d-9cac-94fdddb39c46",
+        "total_cars": 50397,
+        "available_cars": 99157,
+        "booked_cars": 69489,
+        "maintenance_cars": 15286,
+        "last_updated": "2023-09-24T12:09:59.448Z",
+        "created_at": "2023-09-25T07:06:17.445Z",
+        "updated_at": "2023-09-25T06:48:54.216Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "85e39a7b-3e28-43e7-a449-978caedc5fbc",
+        "total_cars": 34169,
+        "available_cars": 78195,
+        "booked_cars": 39234,
+        "maintenance_cars": 96781,
+        "last_updated": "2023-09-24T19:49:19.114Z",
+        "created_at": "2023-09-24T18:55:47.153Z",
+        "updated_at": "2023-09-24T17:36:03.718Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "75228c15-2f9a-435c-9a27-bb98f9ea8811",
+        "total_cars": 2749,
+        "available_cars": 14884,
+        "booked_cars": 46719,
+        "maintenance_cars": 78328,
+        "last_updated": "2023-09-24T11:16:16.262Z",
+        "created_at": "2023-09-24T21:04:32.550Z",
+        "updated_at": "2023-09-24T08:15:20.936Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7f93f162-1d06-4f29-98c6-c22da1a5b099",
+        "total_cars": 60068,
+        "available_cars": 39885,
+        "booked_cars": 8971,
+        "maintenance_cars": 30373,
+        "last_updated": "2023-09-24T09:39:39.943Z",
+        "created_at": "2023-09-25T01:40:09.488Z",
+        "updated_at": "2023-09-24T11:58:06.664Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6c621536-f6fc-40ce-afa7-db7556842532",
+        "total_cars": 7286,
+        "available_cars": 17914,
+        "booked_cars": 72312,
+        "maintenance_cars": 53262,
+        "last_updated": "2023-09-25T04:51:29.871Z",
+        "created_at": "2023-09-25T05:22:43.446Z",
+        "updated_at": "2023-09-24T22:46:20.183Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "f84ffe5d-31ad-437f-8269-097c18baf3a0",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 58427,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-24T20:39:05.503Z",
+        "updated_at": "2023-09-25T00:57:04.952Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4aa1db76-19be-42a4-bf4f-d1c3a93795dd",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 8357,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-09-24T12:49:17.688Z",
+        "updated_at": "2023-09-24T12:09:53.009Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5bde0ee7-4ef6-4d98-a7d2-345229e7939b",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 87772,
+        "color": "Green",
+        "license_plate": "123456",
+        "created_at": "2023-09-24T16:59:58.493Z",
+        "updated_at": "2023-09-25T01:58:58.188Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "010c3ef9-fefc-4a17-a954-a7ec9c9eaecb",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 59806,
+        "color": "Black",
+        "license_plate": "789ABC",
+        "created_at": "2023-09-24T19:17:53.940Z",
+        "updated_at": "2023-09-24T08:02:48.609Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "02497db9-5643-4480-8693-d55f75d1629c",
+        "make": "BMW",
+        "model": "X5",
+        "year": 7517,
+        "color": "White",
+        "license_plate": "456XYZ",
+        "created_at": "2023-09-24T21:14:52.592Z",
+        "updated_at": "2023-09-24T16:12:03.214Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car_status": [
+      {
+        "id": "b98d54bf-2fc5-4955-bd5e-20f002b333ab",
+        "status": "Available",
+        "last_updated": "2023-09-24T22:57:25.515Z",
+        "next_maintenance": "2023-09-24T22:18:55.603Z",
+        "mileage": 86662,
+        "location": "Parking Lot A",
+        "created_at": "2023-09-24T13:23:53.928Z",
+        "updated_at": "2023-09-24T10:46:59.689Z",
+        "car_id": "4aa1db76-19be-42a4-bf4f-d1c3a93795dd"
+      },
+      {
+        "id": "0092e34b-3018-4751-af79-184eb00690c2",
+        "status": "In Use",
+        "last_updated": "2023-09-24T09:00:33.487Z",
+        "next_maintenance": "2023-09-24T18:55:16.543Z",
+        "mileage": 4971,
+        "location": "Parking Lot B",
+        "created_at": "2023-09-25T03:27:30.315Z",
+        "updated_at": "2023-09-24T21:34:23.032Z",
+        "car_id": "5bde0ee7-4ef6-4d98-a7d2-345229e7939b"
+      },
+      {
+        "id": "2828220a-92a4-44ff-93a4-ade6e39bbdde",
+        "status": "Under Maintenance",
+        "last_updated": "2023-09-24T07:44:22.611Z",
+        "next_maintenance": "2023-09-24T14:29:21.007Z",
+        "mileage": 58557,
+        "location": "Garage",
+        "created_at": "2023-09-24T17:34:30.900Z",
+        "updated_at": "2023-09-25T01:13:14.125Z",
+        "car_id": "4aa1db76-19be-42a4-bf4f-d1c3a93795dd"
+      },
+      {
+        "id": "8bf22f76-a93c-4909-85bd-2d2d246affb4",
+        "status": "Out of Service",
+        "last_updated": "2023-09-24T16:58:30.664Z",
+        "next_maintenance": "2023-09-24T12:47:05.916Z",
+        "mileage": 27678,
+        "location": "Service Center",
+        "created_at": "2023-09-25T03:36:34.569Z",
+        "updated_at": "2023-09-24T20:08:38.812Z",
+        "car_id": "f84ffe5d-31ad-437f-8269-097c18baf3a0"
+      },
+      {
+        "id": "b518feb4-cee2-4a9b-aaeb-cf815846e09d",
+        "status": "Reserved",
+        "last_updated": "2023-09-24T15:29:29.823Z",
+        "next_maintenance": "2023-09-25T07:04:59.128Z",
+        "mileage": 32159,
+        "location": "Customer's Address",
+        "created_at": "2023-09-24T22:11:37.915Z",
+        "updated_at": "2023-09-24T14:54:03.017Z",
+        "car_id": "4aa1db76-19be-42a4-bf4f-d1c3a93795dd"
+      }
+    ],
+    "booking": [
+      {
+        "id": "f0621e8d-2429-425b-8715-50b710ed1fa9",
+        "start_time": "2023-09-24T16:18:40.519Z",
+        "end_time": "2023-09-24T16:14:43.154Z",
+        "booking_status": "Confirmed",
+        "pickup_location": "Airport",
+        "dropoff_location": "City Center",
+        "created_at": "2023-09-25T02:33:17.270Z",
+        "updated_at": "2023-09-24T15:29:28.115Z",
+        "car_id": "02497db9-5643-4480-8693-d55f75d1629c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d87d6e9b-a779-4526-bbf5-a3a004941343",
+        "start_time": "2023-09-24T07:46:16.079Z",
+        "end_time": "2023-09-24T08:35:56.730Z",
+        "booking_status": "Pending",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Shopping Mall",
+        "created_at": "2023-09-24T15:58:20.594Z",
+        "updated_at": "2023-09-24T08:31:05.665Z",
+        "car_id": "4aa1db76-19be-42a4-bf4f-d1c3a93795dd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e1e51abf-c7ad-4320-833d-d58a14ce71cd",
+        "start_time": "2023-09-24T11:18:06.505Z",
+        "end_time": "2023-09-25T05:30:49.439Z",
+        "booking_status": "Cancelled",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Restaurant",
+        "created_at": "2023-09-24T09:28:37.808Z",
+        "updated_at": "2023-09-24T22:24:40.117Z",
+        "car_id": "5bde0ee7-4ef6-4d98-a7d2-345229e7939b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2ca3146-4a56-4e71-9c29-a000e8cb1946",
+        "start_time": "2023-09-25T01:51:47.649Z",
+        "end_time": "2023-09-25T01:47:35.365Z",
+        "booking_status": "Completed",
+        "pickup_location": "Office",
+        "dropoff_location": "Park",
+        "created_at": "2023-09-24T12:02:50.801Z",
+        "updated_at": "2023-09-25T03:43:31.129Z",
+        "car_id": "5bde0ee7-4ef6-4d98-a7d2-345229e7939b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "59332847-6b61-4133-9df2-a542edb6517e",
+        "start_time": "2023-09-24T10:43:15.926Z",
+        "end_time": "2023-09-24T13:07:53.376Z",
+        "booking_status": "On Hold",
+        "pickup_location": "Residential Area",
+        "dropoff_location": "Beach",
+        "created_at": "2023-09-24T11:34:39.118Z",
+        "updated_at": "2023-09-25T05:42:44.721Z",
+        "car_id": "5bde0ee7-4ef6-4d98-a7d2-345229e7939b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "96b876c8-fbcb-4077-a6e1-947c07ec90c4",
+        "email": "Maya95@roq.tech",
+        "firstName": "Otilia",
+        "lastName": "Tremblay",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1100.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1e89cb76-7da6-4d90-8e87-24a4b68da872",
+        "email": "Kacie52@roq.tech",
+        "firstName": "Celia",
+        "lastName": "Weber",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10083131",
+        "tenantId": null
+      },
+      {
+        "reference": "254628e3-4601-4feb-ae72-aa7a65bf8bf4",
+        "email": "Clarissa.Sanford1@roq.tech",
+        "firstName": "Estella",
+        "lastName": "Marvin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/583.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3d566e5f-2c87-4133-8bce-41be531663e5",
+        "email": "Taylor75@roq.tech",
+        "firstName": "Izabella",
+        "lastName": "Raynor",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69792816",
+        "tenantId": null
+      },
+      {
+        "reference": "cc268245-fe9a-43ac-bf6c-888aba6b54a8",
+        "email": "Nathanial40@roq.tech",
+        "firstName": "Providenci",
+        "lastName": "Stroman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62756865",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "operations_dashboard": [
+      {
+        "id": "a50aa0b1-667d-467f-8062-730dafc2ad53",
+        "total_cars": 36802,
+        "available_cars": 10298,
+        "booked_cars": 89724,
+        "maintenance_cars": 47299,
+        "last_updated": "2023-09-24T12:10:30.865Z",
+        "created_at": "2023-09-24T16:58:33.891Z",
+        "updated_at": "2023-09-25T03:08:16.530Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d7f7246e-266f-48cf-b56a-59e9c0334f05",
+        "total_cars": 22430,
+        "available_cars": 9456,
+        "booked_cars": 99284,
+        "maintenance_cars": 71587,
+        "last_updated": "2023-09-24T18:09:32.267Z",
+        "created_at": "2023-09-25T02:13:26.875Z",
+        "updated_at": "2023-09-25T02:12:24.310Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "22b011b9-d94f-4886-bada-7cf306344ec2",
+        "total_cars": 18721,
+        "available_cars": 58281,
+        "booked_cars": 43047,
+        "maintenance_cars": 72481,
+        "last_updated": "2023-09-24T19:13:49.630Z",
+        "created_at": "2023-09-24T16:32:36.689Z",
+        "updated_at": "2023-09-25T03:04:30.716Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d8749ddc-9fc2-429e-8160-7627b1706b8d",
+        "total_cars": 49100,
+        "available_cars": 19524,
+        "booked_cars": 95828,
+        "maintenance_cars": 13342,
+        "last_updated": "2023-09-25T00:04:01.209Z",
+        "created_at": "2023-09-25T02:47:05.014Z",
+        "updated_at": "2023-09-24T16:58:53.488Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1a018ceb-f5a2-4038-937b-cfb482eacab4",
+        "total_cars": 11455,
+        "available_cars": 11414,
+        "booked_cars": 54872,
+        "maintenance_cars": 96499,
+        "last_updated": "2023-09-25T03:40:55.074Z",
+        "created_at": "2023-09-24T12:43:57.170Z",
+        "updated_at": "2023-09-24T14:17:43.309Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "f0c285e6-a0ed-4257-81ea-be18b813d017",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 50423,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-25T05:05:10.414Z",
+        "updated_at": "2023-09-24T23:35:37.331Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e5f75f8c-5ff3-4ebe-9bd3-3319626abe87",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 65774,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-09-24T20:01:07.571Z",
+        "updated_at": "2023-09-24T10:31:17.781Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f42d886e-5ef6-4fd7-a31a-bcaf6cb1ef46",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 53711,
+        "color": "Green",
+        "license_plate": "123ABC",
+        "created_at": "2023-09-24T10:03:44.925Z",
+        "updated_at": "2023-09-25T04:16:45.018Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "529da5b6-9cf9-4414-a4f6-6a3a07966f16",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 53783,
+        "color": "Black",
+        "license_plate": "789XYZ",
+        "created_at": "2023-09-25T00:20:59.381Z",
+        "updated_at": "2023-09-24T22:31:26.036Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1b0891aa-b428-4afa-bfe8-cae81dd71d04",
+        "make": "BMW",
+        "model": "X5",
+        "year": 93276,
+        "color": "White",
+        "license_plate": "QWE456",
+        "created_at": "2023-09-24T16:35:43.231Z",
+        "updated_at": "2023-09-24T23:39:01.353Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car_status": [
+      {
+        "id": "7538d962-12a6-4c0e-8b52-613f76719b58",
+        "status": "Available",
+        "last_updated": "2023-09-24T18:02:40.066Z",
+        "next_maintenance": "2023-09-24T20:39:58.613Z",
+        "mileage": 64575,
+        "location": "Parking Lot A",
+        "created_at": "2023-09-24T18:09:19.277Z",
+        "updated_at": "2023-09-24T15:18:44.129Z",
+        "car_id": "1b0891aa-b428-4afa-bfe8-cae81dd71d04"
+      },
+      {
+        "id": "5f0f539a-5100-4f81-9db8-ddfd59ab7f71",
+        "status": "In Use",
+        "last_updated": "2023-09-24T21:20:08.852Z",
+        "next_maintenance": "2023-09-24T09:48:50.170Z",
+        "mileage": 62774,
+        "location": "Parking Lot B",
+        "created_at": "2023-09-25T06:47:09.524Z",
+        "updated_at": "2023-09-24T18:21:49.877Z",
+        "car_id": "f0c285e6-a0ed-4257-81ea-be18b813d017"
+      },
+      {
+        "id": "8becdf7f-e2c5-4a56-8512-0647b9f85aa9",
+        "status": "Maintenance",
+        "last_updated": "2023-09-25T01:57:29.008Z",
+        "next_maintenance": "2023-09-24T22:27:12.985Z",
+        "mileage": 82737,
+        "location": "Garage C",
+        "created_at": "2023-09-24T10:46:06.559Z",
+        "updated_at": "2023-09-25T04:54:33.164Z",
+        "car_id": "f0c285e6-a0ed-4257-81ea-be18b813d017"
+      },
+      {
+        "id": "010c3b73-7c81-4b8f-a793-a78918397e9c",
+        "status": "Out of Service",
+        "last_updated": "2023-09-24T09:51:04.013Z",
+        "next_maintenance": "2023-09-25T04:22:30.809Z",
+        "mileage": 33934,
+        "location": "Service Center D",
+        "created_at": "2023-09-24T16:22:00.945Z",
+        "updated_at": "2023-09-24T21:52:59.010Z",
+        "car_id": "f42d886e-5ef6-4fd7-a31a-bcaf6cb1ef46"
+      },
+      {
+        "id": "75880bf6-1329-4a03-abc9-06afbb8a97a5",
+        "status": "Reserved",
+        "last_updated": "2023-09-24T07:56:27.991Z",
+        "next_maintenance": "2023-09-24T16:31:00.036Z",
+        "mileage": 37167,
+        "location": "Rental Office E",
+        "created_at": "2023-09-24T18:08:22.155Z",
+        "updated_at": "2023-09-25T00:43:46.053Z",
+        "car_id": "1b0891aa-b428-4afa-bfe8-cae81dd71d04"
+      }
+    ],
+    "booking": [
+      {
+        "id": "1c71d57b-bb12-4e3f-827a-57cf33accf12",
+        "start_time": "2023-09-24T16:20:20.975Z",
+        "end_time": "2023-09-24T08:52:13.282Z",
+        "booking_status": "Pending",
+        "pickup_location": "Airport",
+        "dropoff_location": "City Center",
+        "created_at": "2023-09-24T11:42:46.311Z",
+        "updated_at": "2023-09-24T10:13:22.981Z",
+        "car_id": "f0c285e6-a0ed-4257-81ea-be18b813d017",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "613911b2-a70c-49a7-9590-57ded635b603",
+        "start_time": "2023-09-24T22:30:48.418Z",
+        "end_time": "2023-09-25T07:05:01.177Z",
+        "booking_status": "Confirmed",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Shopping Mall",
+        "created_at": "2023-09-25T06:26:37.425Z",
+        "updated_at": "2023-09-25T04:58:10.060Z",
+        "car_id": "f42d886e-5ef6-4fd7-a31a-bcaf6cb1ef46",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b338a794-1fbb-41d6-9033-1036e82b23c9",
+        "start_time": "2023-09-24T19:57:22.363Z",
+        "end_time": "2023-09-24T13:08:10.068Z",
+        "booking_status": "Cancelled",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Restaurant",
+        "created_at": "2023-09-25T02:28:48.188Z",
+        "updated_at": "2023-09-24T08:59:00.947Z",
+        "car_id": "f42d886e-5ef6-4fd7-a31a-bcaf6cb1ef46",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "470349e7-6439-4d57-948e-47ccddfb980f",
+        "start_time": "2023-09-24T18:52:12.164Z",
+        "end_time": "2023-09-24T15:43:08.803Z",
+        "booking_status": "Completed",
+        "pickup_location": "Office",
+        "dropoff_location": "Park",
+        "created_at": "2023-09-24T10:36:19.076Z",
+        "updated_at": "2023-09-24T23:19:17.936Z",
+        "car_id": "f42d886e-5ef6-4fd7-a31a-bcaf6cb1ef46",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ea624b9-ca1e-4d5f-94d9-cbb5a06fa71f",
+        "start_time": "2023-09-24T08:02:01.776Z",
+        "end_time": "2023-09-24T18:59:52.742Z",
+        "booking_status": "No Show",
+        "pickup_location": "Residential Area",
+        "dropoff_location": "Beach",
+        "created_at": "2023-09-24T19:34:50.895Z",
+        "updated_at": "2023-09-24T09:59:31.614Z",
+        "car_id": "f42d886e-5ef6-4fd7-a31a-bcaf6cb1ef46",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "efea6bfc-cf31-4708-b707-36ef804bc848",
+        "email": "Brant.Kub62@roq.tech",
+        "firstName": "Verner",
+        "lastName": "Goldner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61853944",
+        "tenantId": null
+      },
+      {
+        "reference": "3e48d456-b6e2-41e3-88e3-f87c52a32d03",
+        "email": "Ila_Lindgren95@roq.tech",
+        "firstName": "Bertrand",
+        "lastName": "Hauck",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/823.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d48836b1-d24f-4f4c-86b7-35e5dc2fdfed",
+        "email": "Janie.Nolan84@roq.tech",
+        "firstName": "Annie",
+        "lastName": "Gibson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/853.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "477201d2-5476-45c3-ad24-38f108dc4907",
+        "email": "Lee1@roq.tech",
+        "firstName": "Vincenzo",
+        "lastName": "Spinka",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/266.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "332754f4-446f-4571-88a3-d4ae171bb9bc",
+        "email": "Mathias.Johnson82@roq.tech",
+        "firstName": "Kristopher",
+        "lastName": "Harvey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/47.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "operations_dashboard": [
+      {
+        "id": "8e56d850-743e-4040-9597-60f22fa933ab",
+        "total_cars": 69923,
+        "available_cars": 41452,
+        "booked_cars": 74354,
+        "maintenance_cars": 47082,
+        "last_updated": "2023-09-24T10:53:00.105Z",
+        "created_at": "2023-09-24T15:38:22.983Z",
+        "updated_at": "2023-09-24T12:17:14.045Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fe8bd21c-bf46-4954-b675-553ffa19d488",
+        "total_cars": 97433,
+        "available_cars": 52589,
+        "booked_cars": 8638,
+        "maintenance_cars": 29969,
+        "last_updated": "2023-09-24T23:04:16.020Z",
+        "created_at": "2023-09-24T21:34:07.654Z",
+        "updated_at": "2023-09-24T08:47:18.396Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e2738159-0be4-4aec-bec5-0ed87bc7f6f9",
+        "total_cars": 16388,
+        "available_cars": 97841,
+        "booked_cars": 88361,
+        "maintenance_cars": 68360,
+        "last_updated": "2023-09-25T06:05:49.794Z",
+        "created_at": "2023-09-25T07:22:44.955Z",
+        "updated_at": "2023-09-24T23:16:43.959Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fd0fad8f-5f78-4b09-a0de-14431795c045",
+        "total_cars": 29647,
+        "available_cars": 16418,
+        "booked_cars": 94112,
+        "maintenance_cars": 18094,
+        "last_updated": "2023-09-24T20:07:33.508Z",
+        "created_at": "2023-09-24T13:04:16.758Z",
+        "updated_at": "2023-09-24T10:41:25.741Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fdadc544-00cf-4d0e-ad99-29dff1386e57",
+        "total_cars": 8636,
+        "available_cars": 9608,
+        "booked_cars": 7150,
+        "maintenance_cars": 16991,
+        "last_updated": "2023-09-24T15:58:36.748Z",
+        "created_at": "2023-09-24T16:44:28.808Z",
+        "updated_at": "2023-09-24T23:42:58.849Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "e4a23676-e688-4aab-a1dc-4463a4cad585",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 84912,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-25T01:46:40.267Z",
+        "updated_at": "2023-09-24T19:35:49.406Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5c15e204-ff13-43c5-9635-06d31a303412",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 81252,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-09-25T03:53:35.198Z",
+        "updated_at": "2023-09-24T15:18:09.181Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "adb8c184-98a0-4bf7-a775-d0e8e9c1e3b5",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 50301,
+        "color": "Black",
+        "license_plate": "123456",
+        "created_at": "2023-09-24T13:17:19.406Z",
+        "updated_at": "2023-09-24T12:51:40.101Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "32ceb031-c5d9-475b-b2d9-8dd5c09dd2f5",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 73834,
+        "color": "White",
+        "license_plate": "DEF456",
+        "created_at": "2023-09-25T06:25:33.101Z",
+        "updated_at": "2023-09-25T02:55:54.949Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8a38eecc-4d5a-42bf-bac3-b1bfddfef588",
+        "make": "BMW",
+        "model": "X5",
+        "year": 34651,
+        "color": "Silver",
+        "license_plate": "GHI789",
+        "created_at": "2023-09-24T20:11:03.782Z",
+        "updated_at": "2023-09-25T03:32:41.657Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car_status": [
+      {
+        "id": "a690efd4-a7f3-4205-a190-ede83b2f4457",
+        "status": "Available",
+        "last_updated": "2023-09-24T19:05:59.038Z",
+        "next_maintenance": "2023-09-24T14:56:45.244Z",
+        "mileage": 30668,
+        "location": "Parking Lot A",
+        "created_at": "2023-09-25T02:15:26.572Z",
+        "updated_at": "2023-09-25T02:13:38.265Z",
+        "car_id": "32ceb031-c5d9-475b-b2d9-8dd5c09dd2f5"
+      },
+      {
+        "id": "4dc8abe1-394d-41d8-b9e2-c75427f2d418",
+        "status": "Rented",
+        "last_updated": "2023-09-24T23:53:55.798Z",
+        "next_maintenance": "2023-09-25T04:48:11.365Z",
+        "mileage": 63372,
+        "location": "Parking Lot B",
+        "created_at": "2023-09-25T01:06:37.777Z",
+        "updated_at": "2023-09-24T11:25:44.639Z",
+        "car_id": "8a38eecc-4d5a-42bf-bac3-b1bfddfef588"
+      },
+      {
+        "id": "12807039-855f-46c1-b45b-774bd0c081a3",
+        "status": "In Repair",
+        "last_updated": "2023-09-24T21:01:23.443Z",
+        "next_maintenance": "2023-09-25T06:46:59.992Z",
+        "mileage": 27961,
+        "location": "Garage",
+        "created_at": "2023-09-24T15:52:09.258Z",
+        "updated_at": "2023-09-24T15:24:33.421Z",
+        "car_id": "32ceb031-c5d9-475b-b2d9-8dd5c09dd2f5"
+      },
+      {
+        "id": "df8cda83-20d3-42ac-90aa-3f463a363767",
+        "status": "Sold",
+        "last_updated": "2023-09-24T10:28:59.121Z",
+        "next_maintenance": "2023-09-25T04:15:24.334Z",
+        "mileage": 75445,
+        "location": "Service Center",
+        "created_at": "2023-09-24T08:28:14.599Z",
+        "updated_at": "2023-09-25T06:58:06.540Z",
+        "car_id": "32ceb031-c5d9-475b-b2d9-8dd5c09dd2f5"
+      },
+      {
+        "id": "a5001892-324a-4c81-ae17-07ecbcef041d",
+        "status": "Out of Service",
+        "last_updated": "2023-09-25T02:11:11.594Z",
+        "next_maintenance": "2023-09-24T14:12:39.881Z",
+        "mileage": 89762,
+        "location": "Showroom",
+        "created_at": "2023-09-25T00:43:36.174Z",
+        "updated_at": "2023-09-25T02:08:48.325Z",
+        "car_id": "32ceb031-c5d9-475b-b2d9-8dd5c09dd2f5"
+      }
+    ],
+    "booking": [
+      {
+        "id": "75af5ab7-7161-48fd-a0b3-30281723e513",
+        "start_time": "2023-09-24T08:02:28.895Z",
+        "end_time": "2023-09-24T15:22:21.691Z",
+        "booking_status": "Pending",
+        "pickup_location": "Airport",
+        "dropoff_location": "Airport",
+        "created_at": "2023-09-24T18:55:03.761Z",
+        "updated_at": "2023-09-25T06:01:23.281Z",
+        "car_id": "e4a23676-e688-4aab-a1dc-4463a4cad585",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b3e15aba-4e57-4595-93c4-b86550e19e87",
+        "start_time": "2023-09-24T23:18:31.347Z",
+        "end_time": "2023-09-24T12:55:12.392Z",
+        "booking_status": "Confirmed",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Train Station",
+        "created_at": "2023-09-24T16:04:39.278Z",
+        "updated_at": "2023-09-24T15:16:46.392Z",
+        "car_id": "5c15e204-ff13-43c5-9635-06d31a303412",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0706d1c4-7b1c-4692-82d4-294c6d14188d",
+        "start_time": "2023-09-24T07:53:58.005Z",
+        "end_time": "2023-09-24T23:29:56.196Z",
+        "booking_status": "Cancelled",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Hotel",
+        "created_at": "2023-09-24T14:06:34.782Z",
+        "updated_at": "2023-09-25T01:27:56.488Z",
+        "car_id": "e4a23676-e688-4aab-a1dc-4463a4cad585",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a528fa9c-6d51-4b51-8e00-ec4470ec3a02",
+        "start_time": "2023-09-25T02:26:55.868Z",
+        "end_time": "2023-09-24T11:56:28.681Z",
+        "booking_status": "Completed",
+        "pickup_location": "Office",
+        "dropoff_location": "Office",
+        "created_at": "2023-09-24T10:55:20.097Z",
+        "updated_at": "2023-09-25T06:47:06.027Z",
+        "car_id": "8a38eecc-4d5a-42bf-bac3-b1bfddfef588",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4500705b-bcb8-42e7-92d8-6412a91fae1a",
+        "start_time": "2023-09-24T21:47:51.783Z",
+        "end_time": "2023-09-24T13:30:47.408Z",
+        "booking_status": "No Show",
+        "pickup_location": "Residential Area",
+        "dropoff_location": "Residential Area",
+        "created_at": "2023-09-25T05:31:54.114Z",
+        "updated_at": "2023-09-24T18:45:13.053Z",
+        "car_id": "e4a23676-e688-4aab-a1dc-4463a4cad585",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1c08ed1b-83a1-4d96-85b6-5f7a17757b60",
+        "email": "Dell.Torphy55@roq.tech",
+        "firstName": "Jennifer",
+        "lastName": "Green",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1204.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6324cf60-535f-4733-b5d3-6d068c08880a",
+        "email": "Jermain.Feil-Mueller95@roq.tech",
+        "firstName": "Reymundo",
+        "lastName": "Ferry",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1228.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d424a3b2-2b92-4f33-9d98-e08f54d43aff",
+        "email": "Joanne_Wilderman@roq.tech",
+        "firstName": "Nico",
+        "lastName": "Ankunding",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91716998",
+        "tenantId": null
+      },
+      {
+        "reference": "af24bf15-7e1d-417e-a723-eb2a8fb19eb9",
+        "email": "Nora.Emmerich@roq.tech",
+        "firstName": "Noemi",
+        "lastName": "Quigley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70689333",
+        "tenantId": null
+      },
+      {
+        "reference": "a311308f-b9ea-48ca-bc41-8ea485d5b446",
+        "email": "Anita.Ledner92@roq.tech",
+        "firstName": "Trevor",
+        "lastName": "Cummings",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/467.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "operations_dashboard": [
+      {
+        "id": "8d5bd6b2-0536-4d19-84e8-e71f724e0834",
+        "total_cars": 27024,
+        "available_cars": 20661,
+        "booked_cars": 7625,
+        "maintenance_cars": 49762,
+        "last_updated": "2023-09-25T04:24:16.369Z",
+        "created_at": "2023-09-25T04:27:45.461Z",
+        "updated_at": "2023-09-24T18:09:04.331Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6577c2fb-165e-4527-8c7e-448e61932a6c",
+        "total_cars": 28931,
+        "available_cars": 93085,
+        "booked_cars": 57735,
+        "maintenance_cars": 19567,
+        "last_updated": "2023-09-24T23:27:40.904Z",
+        "created_at": "2023-09-24T21:12:10.351Z",
+        "updated_at": "2023-09-24T20:18:18.957Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "afcd620b-82c1-44b4-8517-58f3183f8606",
+        "total_cars": 79391,
+        "available_cars": 98242,
+        "booked_cars": 63946,
+        "maintenance_cars": 72444,
+        "last_updated": "2023-09-24T22:40:06.136Z",
+        "created_at": "2023-09-24T23:48:26.697Z",
+        "updated_at": "2023-09-25T06:00:14.899Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "05540664-3560-4774-a37b-09a92f486105",
+        "total_cars": 41559,
+        "available_cars": 70206,
+        "booked_cars": 63851,
+        "maintenance_cars": 57762,
+        "last_updated": "2023-09-24T13:40:09.764Z",
+        "created_at": "2023-09-24T15:40:41.457Z",
+        "updated_at": "2023-09-24T15:11:52.546Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "23451c32-ce9b-4b3e-9dab-bf7d90e0afec",
+        "total_cars": 94311,
+        "available_cars": 89601,
+        "booked_cars": 41814,
+        "maintenance_cars": 54685,
+        "last_updated": "2023-09-25T05:08:02.224Z",
+        "created_at": "2023-09-24T17:55:09.167Z",
+        "updated_at": "2023-09-25T05:15:27.519Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "c7077577-b405-4e16-9290-998453b49d78",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 26897,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-24T23:19:09.415Z",
+        "updated_at": "2023-09-24T08:26:08.836Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3dceb761-8d4b-423d-8e3b-8335a81a5658",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 42978,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-09-24T09:17:13.013Z",
+        "updated_at": "2023-09-25T07:28:54.414Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bff385d7-aed4-4a9f-87b7-8022441e0317",
+        "make": "Ford",
+        "model": "F-150",
+        "year": 29128,
+        "color": "Green",
+        "license_plate": "123ABC",
+        "created_at": "2023-09-25T03:34:27.658Z",
+        "updated_at": "2023-09-24T12:38:33.728Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "70832e58-23c8-44d7-b8aa-f1299eb09198",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 4015,
+        "color": "Yellow",
+        "license_plate": "789XYZ",
+        "created_at": "2023-09-25T07:06:38.544Z",
+        "updated_at": "2023-09-24T17:51:08.114Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "da15d061-84b0-44dc-8649-fc54607f6622",
+        "make": "BMW",
+        "model": "3 Series",
+        "year": 19869,
+        "color": "Black",
+        "license_plate": "QWERTY",
+        "created_at": "2023-09-25T05:41:02.944Z",
+        "updated_at": "2023-09-24T15:03:35.460Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car_status": [
+      {
+        "id": "a6b3a41a-d703-4796-b00f-85c259fa5bf2",
+        "status": "Available",
+        "last_updated": "2023-09-24T08:15:13.624Z",
+        "next_maintenance": "2023-09-25T00:02:32.214Z",
+        "mileage": 60456,
+        "location": "Parking Lot A",
+        "created_at": "2023-09-24T08:24:29.586Z",
+        "updated_at": "2023-09-24T21:07:40.508Z",
+        "car_id": "3dceb761-8d4b-423d-8e3b-8335a81a5658"
+      },
+      {
+        "id": "beaa7166-54b3-4bbe-844a-653967098e8c",
+        "status": "Rented",
+        "last_updated": "2023-09-24T09:00:21.980Z",
+        "next_maintenance": "2023-09-24T18:16:10.663Z",
+        "mileage": 29137,
+        "location": "Parking Lot B",
+        "created_at": "2023-09-25T01:12:37.177Z",
+        "updated_at": "2023-09-25T04:47:51.396Z",
+        "car_id": "bff385d7-aed4-4a9f-87b7-8022441e0317"
+      },
+      {
+        "id": "6036a93f-32c1-49f5-a133-0bf8dd7e38df",
+        "status": "In Repair",
+        "last_updated": "2023-09-24T15:11:07.944Z",
+        "next_maintenance": "2023-09-24T20:39:18.894Z",
+        "mileage": 76323,
+        "location": "Garage C",
+        "created_at": "2023-09-25T00:41:23.480Z",
+        "updated_at": "2023-09-24T11:28:13.903Z",
+        "car_id": "c7077577-b405-4e16-9290-998453b49d78"
+      },
+      {
+        "id": "d5208b59-691a-4473-be68-f939ef5b6f12",
+        "status": "Sold",
+        "last_updated": "2023-09-24T13:54:34.143Z",
+        "next_maintenance": "2023-09-24T14:07:56.968Z",
+        "mileage": 35367,
+        "location": "Showroom D",
+        "created_at": "2023-09-24T15:57:16.741Z",
+        "updated_at": "2023-09-24T22:23:09.417Z",
+        "car_id": "bff385d7-aed4-4a9f-87b7-8022441e0317"
+      },
+      {
+        "id": "1e31d51c-7cdd-42c9-8b5e-b5e9da9dcab6",
+        "status": "Out of Service",
+        "last_updated": "2023-09-24T08:44:25.109Z",
+        "next_maintenance": "2023-09-24T19:16:05.346Z",
+        "mileage": 76040,
+        "location": "Service Center E",
+        "created_at": "2023-09-25T02:46:48.614Z",
+        "updated_at": "2023-09-24T18:37:06.523Z",
+        "car_id": "da15d061-84b0-44dc-8649-fc54607f6622"
+      }
+    ],
+    "booking": [
+      {
+        "id": "add5b842-ff2d-4d69-8f83-095d5c7d4521",
+        "start_time": "2023-09-24T17:57:57.521Z",
+        "end_time": "2023-09-25T06:52:47.519Z",
+        "booking_status": "Pending",
+        "pickup_location": "Airport",
+        "dropoff_location": "City Center",
+        "created_at": "2023-09-25T06:59:03.094Z",
+        "updated_at": "2023-09-24T18:02:52.144Z",
+        "car_id": "da15d061-84b0-44dc-8649-fc54607f6622",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f601ba3-efb7-4be1-8489-f93789b6b75a",
+        "start_time": "2023-09-24T17:41:45.375Z",
+        "end_time": "2023-09-24T15:13:36.300Z",
+        "booking_status": "Confirmed",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Shopping Mall",
+        "created_at": "2023-09-24T20:04:02.082Z",
+        "updated_at": "2023-09-25T04:37:08.566Z",
+        "car_id": "70832e58-23c8-44d7-b8aa-f1299eb09198",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96ed73bd-e623-4943-84ab-36c9d984d769",
+        "start_time": "2023-09-24T14:24:44.833Z",
+        "end_time": "2023-09-25T01:40:03.329Z",
+        "booking_status": "Cancelled",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Restaurant",
+        "created_at": "2023-09-25T03:38:22.303Z",
+        "updated_at": "2023-09-24T09:19:18.070Z",
+        "car_id": "da15d061-84b0-44dc-8649-fc54607f6622",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c717843-b3de-460d-957e-0fa731017838",
+        "start_time": "2023-09-24T16:36:30.730Z",
+        "end_time": "2023-09-24T18:24:05.168Z",
+        "booking_status": "Completed",
+        "pickup_location": "Office",
+        "dropoff_location": "Park",
+        "created_at": "2023-09-24T12:34:19.897Z",
+        "updated_at": "2023-09-25T06:26:37.679Z",
+        "car_id": "c7077577-b405-4e16-9290-998453b49d78",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "84865308-9d11-4198-aa57-0b79a41f4115",
+        "start_time": "2023-09-24T18:22:18.074Z",
+        "end_time": "2023-09-24T21:19:42.215Z",
+        "booking_status": "No Show",
+        "pickup_location": "Residential Area",
+        "dropoff_location": "Beach",
+        "created_at": "2023-09-25T05:12:53.826Z",
+        "updated_at": "2023-09-24T21:51:39.245Z",
+        "car_id": "bff385d7-aed4-4a9f-87b7-8022441e0317",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "dab3f4a0-ce79-4486-8620-fc4d355767e0",
+        "email": "Ivory30@roq.tech",
+        "firstName": "Lavern",
+        "lastName": "Oberbrunner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/796.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6b9daad8-933d-499f-9036-5fd57f759a5a",
+        "email": "Sally8@roq.tech",
+        "firstName": "Jalon",
+        "lastName": "Wolff",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78445979",
+        "tenantId": null
+      },
+      {
+        "reference": "2a3372ff-d82f-4748-8db4-d7f29e651a14",
+        "email": "Woodrow55@roq.tech",
+        "firstName": "Izabella",
+        "lastName": "Swift",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1074.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a44a4159-f572-4b4f-a851-dc881ba185fa",
+        "email": "Arne.Gulgowski87@roq.tech",
+        "firstName": "Troy",
+        "lastName": "Torp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/476.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e43ecb4a-92c6-45eb-a14e-08f7414ca4df",
+        "email": "Matilda.Stark@roq.tech",
+        "firstName": "Lauriane",
+        "lastName": "Spencer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/874.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "operations_dashboard": [
+      {
+        "id": "fa35b6a2-9b29-4f20-9a43-df12a1ad9f53",
+        "total_cars": 55084,
+        "available_cars": 68587,
+        "booked_cars": 9188,
+        "maintenance_cars": 32981,
+        "last_updated": "2023-09-24T22:01:16.740Z",
+        "created_at": "2023-09-24T14:16:40.447Z",
+        "updated_at": "2023-09-24T11:44:10.651Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0b3b3e15-1e55-4a11-acc1-f13ede0d01bb",
+        "total_cars": 28697,
+        "available_cars": 60569,
+        "booked_cars": 53194,
+        "maintenance_cars": 47660,
+        "last_updated": "2023-09-24T13:10:05.904Z",
+        "created_at": "2023-09-24T08:46:50.942Z",
+        "updated_at": "2023-09-25T00:51:30.050Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a19ae430-e48a-4335-a37d-1ed282de8197",
+        "total_cars": 45315,
+        "available_cars": 40947,
+        "booked_cars": 60996,
+        "maintenance_cars": 34936,
+        "last_updated": "2023-09-25T03:36:18.950Z",
+        "created_at": "2023-09-24T17:18:47.061Z",
+        "updated_at": "2023-09-24T16:27:03.038Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c903a8b5-8b4d-4bd9-b9f2-9dca1dd999a8",
+        "total_cars": 31156,
+        "available_cars": 74721,
+        "booked_cars": 91734,
+        "maintenance_cars": 38225,
+        "last_updated": "2023-09-24T22:01:11.608Z",
+        "created_at": "2023-09-25T05:43:47.982Z",
+        "updated_at": "2023-09-24T08:10:10.084Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2b8245c1-25fb-459d-aa6d-488617823dac",
+        "total_cars": 89241,
+        "available_cars": 35791,
+        "booked_cars": 11255,
+        "maintenance_cars": 82035,
+        "last_updated": "2023-09-24T23:01:20.152Z",
+        "created_at": "2023-09-24T14:26:24.245Z",
+        "updated_at": "2023-09-24T23:26:40.670Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "79e383ce-599b-4932-8fb0-416c821e4e7a",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 66840,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-24T15:38:47.957Z",
+        "updated_at": "2023-09-24T15:26:48.249Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "120b21ef-423c-40e7-8a04-09408b88a59c",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 4326,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-09-24T13:38:16.134Z",
+        "updated_at": "2023-09-25T06:33:06.454Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "219f48a2-44b2-465c-87ef-276b0fbd2cb6",
+        "make": "Ford",
+        "model": "Focus",
+        "year": 19412,
+        "color": "Green",
+        "license_plate": "123456",
+        "created_at": "2023-09-25T05:22:16.642Z",
+        "updated_at": "2023-09-24T11:34:02.921Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b9e810a9-d2a4-450a-9a63-3244dbb11edc",
+        "make": "Chevrolet",
+        "model": "Malibu",
+        "year": 32223,
+        "color": "Silver",
+        "license_plate": "789ABC",
+        "created_at": "2023-09-24T14:01:45.337Z",
+        "updated_at": "2023-09-24T18:25:05.050Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a3fa28ac-bb04-4cee-bb19-91363b9cb332",
+        "make": "BMW",
+        "model": "3 Series",
+        "year": 10957,
+        "color": "Black",
+        "license_plate": "456XYZ",
+        "created_at": "2023-09-24T09:40:07.654Z",
+        "updated_at": "2023-09-25T02:54:12.763Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car_status": [
+      {
+        "id": "0243dae5-de00-4a84-bb21-3fa2c35ee3a9",
+        "status": "Available",
+        "last_updated": "2023-09-24T18:10:36.748Z",
+        "next_maintenance": "2023-09-24T21:13:21.705Z",
+        "mileage": 94203,
+        "location": "Parking Lot A",
+        "created_at": "2023-09-24T20:28:13.795Z",
+        "updated_at": "2023-09-24T18:29:52.038Z",
+        "car_id": "a3fa28ac-bb04-4cee-bb19-91363b9cb332"
+      },
+      {
+        "id": "aaa89cb6-70d7-4335-9d4f-fe2a2c0b8205",
+        "status": "Rented",
+        "last_updated": "2023-09-24T11:53:31.412Z",
+        "next_maintenance": "2023-09-25T00:45:38.558Z",
+        "mileage": 73103,
+        "location": "Parking Lot B",
+        "created_at": "2023-09-24T18:03:04.135Z",
+        "updated_at": "2023-09-24T18:49:19.526Z",
+        "car_id": "79e383ce-599b-4932-8fb0-416c821e4e7a"
+      },
+      {
+        "id": "9c7727de-6ea7-455d-8542-51e7bfef32c3",
+        "status": "In Repair",
+        "last_updated": "2023-09-24T07:55:25.474Z",
+        "next_maintenance": "2023-09-24T11:27:17.778Z",
+        "mileage": 97322,
+        "location": "Garage",
+        "created_at": "2023-09-25T05:19:05.150Z",
+        "updated_at": "2023-09-24T23:54:33.688Z",
+        "car_id": "219f48a2-44b2-465c-87ef-276b0fbd2cb6"
+      },
+      {
+        "id": "a5d6ce2b-96fa-4ce8-9b73-5c165cf71aa9",
+        "status": "Out of Service",
+        "last_updated": "2023-09-24T15:45:07.864Z",
+        "next_maintenance": "2023-09-24T16:09:21.542Z",
+        "mileage": 47802,
+        "location": "Service Center",
+        "created_at": "2023-09-24T10:38:35.181Z",
+        "updated_at": "2023-09-24T08:52:21.166Z",
+        "car_id": "120b21ef-423c-40e7-8a04-09408b88a59c"
+      },
+      {
+        "id": "a72d68da-1709-4361-a4c7-8810848d9f32",
+        "status": "Reserved",
+        "last_updated": "2023-09-24T13:06:20.291Z",
+        "next_maintenance": "2023-09-24T21:02:58.839Z",
+        "mileage": 73215,
+        "location": "Rental Office",
+        "created_at": "2023-09-24T14:25:23.807Z",
+        "updated_at": "2023-09-25T00:49:29.864Z",
+        "car_id": "120b21ef-423c-40e7-8a04-09408b88a59c"
+      }
+    ],
+    "booking": [
+      {
+        "id": "4c7d73ff-dfa5-46ca-91ac-f6db701dfe07",
+        "start_time": "2023-09-25T00:19:49.712Z",
+        "end_time": "2023-09-25T00:55:53.446Z",
+        "booking_status": "Confirmed",
+        "pickup_location": "Airport",
+        "dropoff_location": "Airport",
+        "created_at": "2023-09-24T17:18:10.558Z",
+        "updated_at": "2023-09-24T10:12:16.557Z",
+        "car_id": "219f48a2-44b2-465c-87ef-276b0fbd2cb6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30f331f1-1794-48e7-98ce-f429a20d1391",
+        "start_time": "2023-09-24T17:07:51.907Z",
+        "end_time": "2023-09-24T13:37:53.558Z",
+        "booking_status": "Pending",
+        "pickup_location": "Downtown",
+        "dropoff_location": "Downtown",
+        "created_at": "2023-09-24T22:43:37.886Z",
+        "updated_at": "2023-09-24T11:48:07.061Z",
+        "car_id": "a3fa28ac-bb04-4cee-bb19-91363b9cb332",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80512c8f-0eba-4423-aa3b-9ab8a0ef89d1",
+        "start_time": "2023-09-24T17:55:44.058Z",
+        "end_time": "2023-09-24T11:08:18.871Z",
+        "booking_status": "Cancelled",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Train Station",
+        "created_at": "2023-09-24T12:47:44.327Z",
+        "updated_at": "2023-09-24T17:54:59.811Z",
+        "car_id": "b9e810a9-d2a4-450a-9a63-3244dbb11edc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46dda294-4681-4fd2-94bb-24af5d05e1d9",
+        "start_time": "2023-09-24T22:05:05.762Z",
+        "end_time": "2023-09-24T15:10:08.529Z",
+        "booking_status": "Completed",
+        "pickup_location": "Shopping Mall",
+        "dropoff_location": "Shopping Mall",
+        "created_at": "2023-09-24T07:47:42.348Z",
+        "updated_at": "2023-09-25T07:31:47.458Z",
+        "car_id": "a3fa28ac-bb04-4cee-bb19-91363b9cb332",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a740c5f6-81ab-45a2-80fe-dbd184edcd7f",
+        "start_time": "2023-09-24T21:37:10.859Z",
+        "end_time": "2023-09-24T23:38:10.030Z",
+        "booking_status": "On Hold",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Hotel",
+        "created_at": "2023-09-24T12:42:41.967Z",
+        "updated_at": "2023-09-24T18:40:58.199Z",
+        "car_id": "79e383ce-599b-4932-8fb0-416c821e4e7a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "93f0224e-2a15-4ab0-a884-59040b0be260",
+        "email": "Wilhelmine_Nicolas@roq.tech",
+        "firstName": "Isaac",
+        "lastName": "Trantow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/622.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dbdbfdab-f3dc-4f4b-8d7a-2fede42edf4f",
+        "email": "Yesenia.Murphy85@roq.tech",
+        "firstName": "Nicholaus",
+        "lastName": "Anderson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87806875",
+        "tenantId": null
+      },
+      {
+        "reference": "ce195441-bdb7-46ee-9226-bcd2f0df69b5",
+        "email": "Roman28@roq.tech",
+        "firstName": "Carmine",
+        "lastName": "Beer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7345658",
+        "tenantId": null
+      },
+      {
+        "reference": "83439c34-1d37-4349-b637-15c5e9a663f9",
+        "email": "Letitia_Hirthe@roq.tech",
+        "firstName": "Wendy",
+        "lastName": "Konopelski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/629.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5f5e01f0-1be0-46ca-9ccd-b6c82b6c038b",
+        "email": "Rosalyn71@roq.tech",
+        "firstName": "Dorothea",
+        "lastName": "Haley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79747948",
+        "tenantId": null
+      }
+    ]
+  }
+]
